@@ -41,8 +41,8 @@ class myBroadcastReceiver:BroadcastReceiver()
     {
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O)
         {
-            val name = "Waky waky time for school"
-            val descriptionText = "Despierta socio"
+            val name = "Notificacion Preciasos!!!"
+            val descriptionText = "Recuerda revisar nuestros descuentos"
             val importance = NotificationManager.IMPORTANCE_DEFAULT
             val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
                 description = descriptionText
@@ -56,8 +56,8 @@ class myBroadcastReceiver:BroadcastReceiver()
     {
         val builder: NotificationCompat.Builder = NotificationCompat.Builder(context,CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_launcher_background)
-                .setContentTitle("Alarma!!!!!")
-                .setContentText("DESPIERTA")
+                .setContentTitle("DESCUENTOS!!!")
+                .setContentText("REVISA LOS DESCUENTOS DE HOY")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
 
         with(NotificationManagerCompat.from(context))
