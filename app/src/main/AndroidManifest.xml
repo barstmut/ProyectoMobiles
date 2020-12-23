@@ -3,6 +3,7 @@
     package="com.example.proyecto3">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -14,12 +15,11 @@
         <activity android:name=".fullService" />
         <activity android:name=".category" />
         <activity android:name=".lista" />
-        <activity android:name=".Servicio" />
         <activity android:name=".splash"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
