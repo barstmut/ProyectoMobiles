@@ -3,8 +3,6 @@ package com.example.proyecto3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity()
 {
@@ -12,11 +10,14 @@ class MainActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val saveData = SaveData(applicationContext)
+        saveData.setAlarm()
     }
 
-    fun change(view: View)
+    fun change()
     {
-        val intent: Intent = Intent(this, category::class.java)
+        val intent = Intent(this, category::class.java)
         startActivity(intent)
     }
 
