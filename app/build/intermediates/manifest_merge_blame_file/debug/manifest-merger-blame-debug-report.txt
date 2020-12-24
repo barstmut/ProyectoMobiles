@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proyecto3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:11:22-63
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:12:22-78
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:14:5-49:19
+29        android:allowBackup="true"
+29-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:15:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\79ee559483d346866425453a88a27286\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:16:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:17:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:18:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:19:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Proyecto3" >
+38-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:20:9-47
+39
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48        <meta-data
+48-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:30:9-32:55
+49            android:name="com.google.android.geo.API_KEY"
+49-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:31:13-58
+50            android:value="@string/google_maps_key" />
+50-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:32:13-52
+51
+52        <activity
+52-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:34:9-36:73
+53            android:name="com.example.proyecto3.Ubicacion"
+53-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:35:13-38
+54            android:label="@string/title_activity_ubicacion" />
+54-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:36:13-61
+55        <activity android:name="com.example.proyecto3.fullService" />
+55-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:37:9-49
+55-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:37:19-46
+56        <activity android:name="com.example.proyecto3.category" />
+56-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:38:9-46
+56-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:38:19-43
+57        <activity android:name="com.example.proyecto3.lista" />
+57-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:39:9-43
+57-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:39:19-40
+58        <activity android:name="com.example.proyecto3.MainActivity" />
+58-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:40:9-50
+58-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:40:19-47
+59        <activity android:name="com.example.proyecto3.splash" >
+59-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:41:9-48:20
+59-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:41:19-41
+60            <intent-filter>
+60-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:42:13-47:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:43:17-69
+61-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:43:25-66
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:44:17-79
+62-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:44:25-76
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:46:17-77
+64-->C:\Users\Acer\Documents\GitHub\ProyectoMobiles\app\src\main\AndroidManifest.xml:46:27-74
+65            </intent-filter>
+66        </activity>
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\ded668fd95b505b1f809aa24733e053c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6d064301158aa86007fb000de44842bf\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6d064301158aa86007fb000de44842bf\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6d064301158aa86007fb000de44842bf\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6d064301158aa86007fb000de44842bf\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\b9f5eb9356e0cc1c7a3916f660e07226\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\b9f5eb9356e0cc1c7a3916f660e07226\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\b9f5eb9356e0cc1c7a3916f660e07226\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>
