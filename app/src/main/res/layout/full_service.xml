@@ -98,6 +98,7 @@
                 android:id="@+id/imageButton"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
+                android:onClick="gps"
                 app:srcCompat="@drawable/gps" />
 
             <TextView

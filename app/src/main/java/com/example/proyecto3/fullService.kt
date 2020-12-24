@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.full_service.*
@@ -39,8 +40,16 @@ class fullService : AppCompatActivity()
         startActivity(intent)
     }
 
+    fun gps(view: View)
+    {
+        val intent = Intent(this, Ubicacion::class.java)
+        startActivity(intent)
+    }
+
+
     fun llamar(view: View)
     {
+        Log.i("GPS", "LLamar")
         val intent = Intent(Intent.ACTION_DIAL)
         intent.data = Uri.parse("tel:<$phone>")
         startActivity(intent)
